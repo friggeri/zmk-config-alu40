@@ -15,7 +15,7 @@
 #define DEFAULT 0
 #define LOWER 1
 #define RAISE 2
-#define L_HOME 3
+#define HOME 3
 #define CONTROL 4
 
 #define CAPF LG(LS(DQT))
@@ -55,7 +55,7 @@
                 &kp ESC             &kp FR_A            &kp FR_Z            &kp FR_E            &kp FR_R            &kp FR_T            &kp FR_Y            &kp FR_U           &kp FR_I             &kp FR_O            &kp FR_P            &kp BSPC
                 &kp TAB             &kp FR_Q            &kp FR_S            &kp FR_D            &kp FR_F            &kp FR_G            &kp FR_H            &kp FR_J           &kp FR_K             &kp FR_L            &kp FR_M            &kp ENTER
                 &mt LSHFT FR_LPAR   &kp FR_W            &kp FR_X            &kp FR_C            &kp FR_V            &kp FR_B            &kp FR_N            &kp FR_COMMA       &kp FR_SEMI          &kp FR_COLON        &kp UP              &mt RSHFT FR_RPAR
-                &lt L_HOME CAPS     &kp LCTRL           &kp LALT            &kp LGUI            &lt LOWER FR_DQT    &kp SPACE           &kp SPACE           &lt RAISE FR_APOS  &kp RALT             &kp LEFT            &kp DOWN            &kp RIGHT
+                &mo HOME            &kp LCTRL           &kp LALT            &kp LGUI            &lt LOWER FR_DQT    &kp SPACE           &kp SPACE           &lt RAISE FR_APOS  &kp RALT             &kp LEFT            &kp DOWN            &kp RIGHT
             >;
         };
 
@@ -79,7 +79,7 @@
 
         home {
             bindings = <
-                &trans              &trans              &trans              &trans              &trans              &kp PREV            &kp PLAY            &kp NEXT            &kp MUTE            &kp VOLD            &kp VOLU            &trans
+                &trans              &trans              &trans              &trans              &trans              &kp PREV            &kp PLAY            &kp NEXT            &kp MUTE            &kp VOLD            &kp VOLU            &kp CAPS
                 &kp SPACE1          &kp SPACE2          &kp SPACE3          &kp SPACE4          &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
                 &trans              &trans              &trans              &trans              &trans              &kp CAPF            &kp CAPR            &trans              &trans              &trans              &kp BRIU            &trans
                 &trans              &trans              &trans              &trans              &trans              &kp CHAR            &kp CHAR            &trans              &trans              &trans              &kp BRID            &trans
