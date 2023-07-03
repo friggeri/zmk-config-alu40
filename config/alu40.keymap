@@ -15,8 +15,8 @@
 #define DEFAULT 0
 #define LOWER 1
 #define RAISE 2
-#define CONTROL 3
-#define HOME 4
+#define HOME 3
+#define CONTROL 4
 
 #define CAPF LG(LS(DQT))
 #define CAPR LG(LS(APOS))
@@ -64,7 +64,7 @@
                 &kp FR_AT           &kp FR_AMPS         &kp FR_E_ACUTE      &trans              &trans              &trans              &kp FR_SECT         &kp FR_E_GRAVE      &kp FR_EXCL         &kp FR_C_CEDILLA    &kp FR_A_GRAVE      &trans
                 &trans              &trans              &trans              &trans              &trans              &trans              &trans              &kp FR_CARET        &kp FR_DLLR         &kp FR_PIPE         &kp FR_MINUS        &trans
                 &mt LSHFT FR_LBKT   &kp FR_LT           &trans              &trans              &trans              &trans              &trans              &kp FR_EQUAL        &kp FR_U_GRAVE      &kp FR_GRAVE        &trans              &mt RSHFT FR_RBKT
-                &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
+                &trans              &trans              &trans              &trans              &trans              &trans              &mo CONTROL         &trans              &trans              &trans              &trans              &trans
             >;
         };
 
@@ -73,7 +73,7 @@
                 &kp FR_HASH         &kp FR_N1           &kp FR_N2           &kp FR_N3           &kp FR_N4           &kp FR_N5           &kp FR_N6           &kp FR_N7           &kp FR_N8           &kp FR_N9           &kp FR_N0           &trans
                 &trans              &trans              &trans              &trans              &trans              &trans              &trans              &kp FR_UMLAUT       &kp FR_STAR         &kp FR_DEG          &kp FR_UNDER        &trans
                 &mt LSHFT FR_LBRC   &kp FR_GT           &trans              &trans              &trans              &trans              &trans              &kp FR_PLUS         &kp FR_PERCENT      &kp FR_POUND_SIGN   &trans              &mt RSHFT FR_RBRC
-                &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
+                &trans              &trans              &trans              &trans              &mo CONTROL         &trans              &trans              &trans              &trans              &trans              &trans              &trans
             >;
         };
 
