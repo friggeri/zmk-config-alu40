@@ -64,7 +64,7 @@
                 &kp FR_AT           &kp FR_AMPS         &kp FR_E_ACUTE      &trans              &trans              &trans              &kp FR_SECT         &kp FR_E_GRAVE      &kp FR_EXCL         &kp FR_C_CEDILLA    &kp FR_A_GRAVE      &trans
                 &trans              &trans              &trans              &trans              &trans              &trans              &trans              &kp FR_CARET        &kp FR_DLLR         &kp FR_PIPE         &kp FR_MINUS        &trans
                 &mt LSHFT FR_LBKT   &kp FR_LT           &trans              &trans              &trans              &trans              &trans              &kp FR_EQUAL        &kp FR_U_GRAVE      &kp FR_GRAVE        &trans              &mt RSHFT FR_RBKT
-                &trans              &trans              &trans              &trans              &trans              &trans              &mo CONTROL         &trans              &trans              &trans              &trans              &trans
+                &trans              &trans              &trans              &trans              &trans              &trans              &trans              &mo CONTROL         &trans              &trans              &trans              &trans
             >;
         };
 
